@@ -1,0 +1,24 @@
+RAPPORT D'ANALYSE
+Date : Mon Nov 23 11:54:10 CET 2026
+Utilisateur@machine : babacar@DESKTOP-IQ5CLFN
+Matricule : 783676232
+
+SHA256 :
+e14b71a8b6c622295cbbdf032ed4c9bb87d74a078172d63ecb66bd4036a08ee7  logs/access.log
+
+REQUETES PAR FAMILLE HTTP
+2xx : 1742
+3xx : 0
+4xx : 232
+5xx : 26
+
+TOP 3 ENDPOINTS
+    392 /api/auth/login
+    283 /api/notes
+    277 /api/cours
+
+IP SUSPECTE
+    113 197.149.239.73
+
+TEMPS MOYEN DES REQUETES 200
+162.8 ms
