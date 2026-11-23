@@ -1,0 +1,76 @@
+Script started on 2026-11-23 14:22:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="41"]
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git config --global --list
+[?2004l[?1h=user.name=Babacar Sow[m
+user.email=sowbabs585@gmail.com[m
+user.signingkey=/home/babacar/.ssh/id_ed25519.pub[m
+gpg.format=ssh[m
+commit.gpgsign=true[m
+tag.gpgsign=true[m
+gpg.ssh.allowedsignersfile=/home/babacar/.config/git/allowed_signers[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git log -1 --show-signature
+[?2004l[?1h=[33mcommit 4f418e3641a20ee5d98870f11a52ab314c5afad4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+[36mGood "git" signature for sowbabs585@gmail.com with ED25519 key SHA256:fF+AeAAGOWKPAVFzqIA6RdhI3x1yHvJeAYPpGhGI6YE[m[m
+Author: Babacar Sow <sowbabs585@gmail.com>[m
+Date:   Mon Nov 23 13:47:41 2026 +0100[m
+[m
+    Version propre du projet[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cat .gitignore
+[?2004lout/
+*.class
+/logs/*
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status[K[K[K[K[K[K[K[K[K[Kgit statur[Kt[Ks
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/preuves/git.log[m
+	[31mdocs/preuves/git.tm[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ nano .gitignore
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;78H(B[0;7m[ Reading... ](B[m[39;77H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                                                                  .gitignore                                                                            [1;167H(B[m[40d(B[0;7m^G(B[m Help[40;17H(B[0;7m^O(B[m Write Out    (B[0;7m^F(B[m Where Is     (B[0;7m^K(B[m Cut[40;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[40;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-B(B[m Previous[41d(B[0;7m^X(B[m Exit[41;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[41;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[41;113H(B[0;7mM-6(B[m Copy[41;129H(B[0;7m^B(B[m Where Was    (B[0;7mM-F(B[m Next[2dout/[3d*.class[4d/logs/*[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;94H(B[0;7m*[167G(B[m7[2;39r8[2d[2T[1;41r[2;1Hout/[3d*.class[39d[?12l[?25h[4dlogs/out/[?25l[4;39r[39;1H
+[1;41r[4;1H[?12l[?25h[?25l[3;39r[39;1H
+[1;41r[4;1H[?12l[?25h[?25l[K[?12l[?25h[?25l[39;75H(B[0;7m[ Nothing was cut ](B[m[?12l[?25h[4d[?25l[39;94H[?12l[?25h[4d[?25l[39;94H[?12l[?25h[4d[?25l[?12l[?25hlogs/[?25l[40;17H[17X[40;34H(B[0;7mM-D(B[m DOS Format       [40;65H  (B[0;7mM-A(B[m Append[23X[40;100H(B[0;7mM-B(B[m Backup File[18X[40;133H(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[17G[17X[41;34H(B[0;7mM-M(B[m Mac Format         [41;65H  (B[0;7mM-P(B[m Prepend[22X[41;100H(B[0;7m^Q(B[m Discard buffer[K[40;142H[A(B[0;7mWrite to File: .gitignore                                                                                                                                               [39;26H(B[m[?12l[?25h[?25l[39;77H[1K (B[0;7m[ Writing... ](B[m[K[1;94H(B[0;7m [167G(B[m[39;76H(B[0;7m[ Wrote 3 lines ](B[m[40;17H(B[0;7m^O(B[m Write Out    (B[0;7m^F(B[m Where Is     (B[0;7m^K(B[m Cut[40;65H(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo        (B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-B(B[m Previous[41;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[41;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo        (B[0;7mM-6(B[m Copy[41;129H(B[0;7m^B(B[m Where Was    (B[0;7mM-F(B[m Next[?12l[?25h[4;6H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add .gitignore
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Configure les fichiers ignores"
+[?2004l[main 5fae7a5] Configure les fichiers ignores
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git log --oneline
+[?2004l[?1h=[33m5fae7a5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Configure les fichiers ignores[m
+[33m4f418e3[m[33m ([m[1;31morigin/main[m[33m)[m Version propre du projet[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch sauvegarde-main
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git switch --orphan main-propre
+[?2004lSwitched to a new branch 'main-propre'
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status --short
+[?2004l[31m??[m docs/
+[31m??[m logs/
+[31m??[m out/
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add src/
+[?2004lfatal: pathspec 'src/' did not match any files
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute le generateur Java"
+[?2004lOn branch main-propre
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/[m
+	[31mlogs/[m
+	[31mout/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls src/
+[?2004lls: cannot access 'src/': No such file or directory
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status --short
+[?2004l[31m??[m docs/
+[31m??[m logs/
+[31m??[m out/
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch
+[?2004l[?1h=  main[m[m
+  sauvegarde-main[m[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git checkout sauvegarde-main -- src scripts README.md .gitignore
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls src/
+[?2004lGenerateurLogs.java
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls scripts/
+[?2004l[0m[01;32manalyse.sh[0m  [01;32msurveille.sh[0m
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git sta
