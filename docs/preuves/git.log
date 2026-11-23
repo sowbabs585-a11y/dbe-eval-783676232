@@ -73,4 +73,542 @@ nothing added to commit but untracked files present (use "git add" to track)
 [?2004lGenerateurLogs.java
 [?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls scripts/
 [?2004l[0m[01;32manalyse.sh[0m  [01;32msurveille.sh[0m
-[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git sta
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   README.md[m
+	[32mnew file:   scripts/analyse.sh[m
+	[32mnew file:   scripts/surveille.sh[m
+	[32mnew file:   src/GenerateurLogs.java[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/[m
+
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch --show-current
+[?2004lmain-propre
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute le generateur Java"
+[?2004l[main-propre (root-commit) d4eeb11] Ajoute le generateur Java
+ 5 files changed, 186 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100755 scripts/analyse.sh
+ create mode 100755 scripts/surveille.sh
+ create mode 100644 src/GenerateurLogs.java
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add scripts/
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute les scripts Linux"
+[?2004lOn branch main-propre
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ c[Kgit log --oneline
+[?2004l[?1h=[33md4eeb11[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m)[m Ajoute le generateur Java[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git ls-files scripts/
+[?2004lscripts/analyse.sh
+scripts/surveille.sh
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add docs/
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   docs/preuves/git.log[m
+	[32mnew file:   docs/preuves/git.tm[m
+
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls -R docs/
+[?2004ldocs/:
+[0m[01;34mpreuves[0m
+
+docs/preuves:
+git.log  git.tm
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute les preuves Git"
+[?2004l[main-propre f27b127] Ajoute les preuves Git
+ 2 files changed, 76 insertions(+)
+ create mode 100644 docs/preuves/git.log
+ create mode 100644 docs/preuves/git.tm
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git log --oneline
+[?2004l[?1h=[33mf27b127[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m)[m Ajoute les preuves Git[m
+[33md4eeb11[m Ajoute le generateur Java[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls -R
+[?2004l.:
+README.md  [0m[01;34mdocs[0m  [01;34mlogs[0m  [01;34mout[0m  [01;34mscripts[0m  [01;34msrc[0m
+
+./docs:
+[01;34mpreuves[0m
+
+./docs/preuves:
+git.log  git.tm
+
+./logs:
+access.log  access_anonyme.log  erreurs_5xx.log  gen.err  surveillance.log  surveille.out  vide.log
+
+./out:
+GenerateurLogs.class
+
+./scripts:
+[01;32manalyse.sh[0m  [01;32msurveille.sh[0m
+
+./src:
+GenerateurLogs.java
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git checkout sauvegarde-main -- README.md docs rendus rapports
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   docs/git.md[m
+	[32mnew file:   docs/linux.md[m
+	[32mnew file:   docs/preuves/historique_linux.txt[m
+	[32mnew file:   docs/preuves/linux.log[m
+	[32mnew file:   docs/preuves/linux.tm[m
+	[32mnew file:   rapports/rapport_783676232_20261123_1154.txt[m
+	[32mnew file:   rendus/linux_783676232.tar.gz[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ grep -n 'github_pat_' docs/preuves/historique_linux.txt
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch -avv
+[?2004l[?1h=  main               [m 5fae7a5 [[34morigin/main[m: ahead 1] Configure les fichiers ignores[m
+* [32mmain-propre        [m f27b127 Ajoute les preuves Git[m
+  sauvegarde-main    [m 5fae7a5 Configure les fichiers ignores[m
+  [31mremotes/origin/main[m 4f418e3 Version propre du projet[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ [K]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   docs/git.md[m
+	[32mnew file:   docs/linux.md[m
+	[32mnew file:   docs/preuves/historique_linux.txt[m
+	[32mnew file:   docs/preuves/linux.log[m
+	[32mnew file:   docs/preuves/linux.tm[m
+	[32mnew file:   rapports/rapport_783676232_20261123_1154.txt[m
+	[32mnew file:   rendus/linux_783676232.tar.gz[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute la documentation et les preuves Linux"
+[?2004l[main-propre 4941523] Ajoute la documentation et les preuves Linux
+ 7 files changed, 889 insertions(+)
+ create mode 100644 docs/git.md
+ create mode 100644 docs/linux.md
+ create mode 100644 docs/preuves/historique_linux.txt
+ create mode 100644 docs/preuves/linux.log
+ create mode 100644 docs/preuves/linux.tm
+ create mode 100644 rapports/rapport_783676232_20261123_1154.txt
+ create mode 100644 rendus/linux_783676232.tar.gz
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add rendus/
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute l'archive de rendu"
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git add rendus/linux_783676232.tar.gz
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git commit -m "Ajoute l'archive de rendu"
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git log --oneline
+[?2004l[?1h=[33m4941523[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m)[m Ajoute la documentation et les preuves Linux[m
+[33mf27b127[m Ajoute les preuves Git[m
+[33md4eeb11[m Ajoute le generateur Java[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git show --stat --oneline HEAD
+[?2004l[?1h=[33m4941523[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m)[m Ajoute la documentation et les preuves Linux[m
+ docs/git.md                                  |  16 [32m++++[m[m
+ docs/linux.md                                |   5 [32m++[m[m
+ docs/preuves/historique_linux.txt            | 291 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.log                       | 553 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.tm                        | Bin [31m0[m -> [32m20751[m bytes[m
+ rapports/rapport_783676232_20261123_1154.txt |  24 [32m+++++[m[m
+ rendus/linux_783676232.tar.gz                | Bin [31m0[m -> [32m16087[m bytes[m
+ 7 files changed, 889 insertions(+)[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git ls-tree -r HEAD scripts/
+[?2004l100755 blob b595208c7e9b5662bba27b96eb6d789ce794ac73	scripts/analyse.sh
+100755 blob 9d4d20a14eeab0e2e3ba2ab73d5ba7c4c55e2aa7	scripts/surveille.sh
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cat scripts/analyse.sh
+[?2004l
+#!/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage : bash scripts/analyse.sh <fichier.log> [--top N]" >&2
+}
+
+verifier_fichier() {
+    if [[ ! -f "$1" ]]; then
+        echo "Erreur : fichier inexistant" >&2
+        exit 2
+    fi
+    if [[ ! -s "$1" ]]; then
+        echo "Erreur : fichier vide" >&2
+        exit 3
+    fi
+}
+
+compter_famille() {
+    awk -v famille="$1" '$9 ~ ("^" famille) {n++} END {print n+0}' "$fichier"
+}
+
+top_endpoints() {
+    awk '{print $7}' "$fichier" |
+    sed 's/?page=.*//' |
+    sort | uniq -c | sort -rn | head -n "$top"
+}
+
+ip_suspecte() {
+    awk '$9==401 && $7=="/api/auth/login" {print $1}' "$fichier" |
+    sort | uniq -c | sort -rn | head -n 1
+}
+
+if [[ $# -lt 1 || $# -gt 3 ]]; then
+    usage
+    exit 1
+fi
+
+if [[ -z "${MATRICULE:-}" ]]; then
+    echo "Erreur : MATRICULE non définie" >&2
+    exit 1
+fi
+
+fichier="$1"
+top=3
+
+if [[ $# -eq 2 ]]; then
+    usage
+    exit 1
+fi
+
+if [[ $# -eq 3 ]]; then
+    if [[ "$2" != "--top" || ! "$3" =~ ^[1-9][0-9]*$ ]]; then
+        usage
+        exit 1
+    fi
+    top="$3"
+fi
+
+verifier_fichier "$fichier"
+
+mkdir -p rapports
+
+date_rapport=$(date +%Y%m%d_%H%M)
+rapport="rapports/rapport_${MATRICULE}_${date_rapport}.txt"
+
+{
+    echo "RAPPORT D'ANALYSE"
+    echo "Date : $(date)"
+    echo "Utilisateur@machine : $(whoami)@$(hostname)"
+    echo "Matricule : $MATRICULE"
+    echo
+    echo "SHA256 :"
+    sha256sum "$fichier"
+    echo
+    echo "REQUETES PAR FAMILLE HTTP"
+    for famille in 2 3 4 5; do
+        echo "${famille}xx : $(compter_famille "$famille")"
+    done
+    echo
+    echo "TOP $top ENDPOINTS"
+    top_endpoints
+    echo
+    echo "IP SUSPECTE"
+    ip_suspecte
+    echo
+    echo "TEMPS MOYEN DES REQUETES 200"
+    awk '$9==200 {s+=$(NF); n++} END {if(n) printf "%.1f ms\n",s/n; else print "Aucune"}' "$fichier"
+} > "$rapport"
+
+echo "Rapport créé : $rapport"
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cat scripts/surveille.sh
+[?2004l
+#!/bin/bash
+
+while true; do
+    trap 'echo "$(date) arrêt propre" >> logs/surveillance.log; exit 0' TERM
+
+    echo "$(date '+%F %T') - Nombre de lignes : $(wc -l < logs/access.log)" >> logs/surveillance.log
+
+    sleep 5 &
+    wait $!
+done
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ 
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ head -n 30 scripts/analyse.sh
+[?2004l
+#!/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage : bash scripts/analyse.sh <fichier.log> [--top N]" >&2
+}
+
+verifier_fichier() {
+    if [[ ! -f "$1" ]]; then
+        echo "Erreur : fichier inexistant" >&2
+        exit 2
+    fi
+    if [[ ! -s "$1" ]]; then
+        echo "Erreur : fichier vide" >&2
+        exit 3
+    fi
+}
+
+compter_famille() {
+    awk -v famille="$1" '$9 ~ ("^" famille) {n++} END {print n+0}' "$fichier"
+}
+
+top_endpoints() {
+    awk '{print $7}' "$fichier" |
+    sed 's/?page=.*//' |
+    sort | uniq -c | sort -rn | head -n "$top"
+}
+
+ip_suspecte() {
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cat scripts/surveille.sh
+[?2004l
+#!/bin/bash
+
+while true; do
+    trap 'echo "$(date) arrêt propre" >> logs/surveillance.log; exit 0' TERM
+
+    echo "$(date '+%F %T') - Nombre de lignes : $(wc -l < logs/access.log)" >> logs/surveillance.log
+
+    sleep 5 &
+    wait $!
+done
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ head -n 30 scripts/analyse.sh
+[?2004l
+#!/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage : bash scripts/analyse.sh <fichier.log> [--top N]" >&2
+}
+
+verifier_fichier() {
+    if [[ ! -f "$1" ]]; then
+        echo "Erreur : fichier inexistant" >&2
+        exit 2
+    fi
+    if [[ ! -s "$1" ]]; then
+        echo "Erreur : fichier vide" >&2
+        exit 3
+    fi
+}
+
+compter_famille() {
+    awk -v famille="$1" '$9 ~ ("^" famille) {n++} END {print n+0}' "$fichier"
+}
+
+top_endpoints() {
+    awk '{print $7}' "$fichier" |
+    sed 's/?page=.*//' |
+    sort | uniq -c | sort -rn | head -n "$top"
+}
+
+ip_suspecte() {
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+	[31mmodified:   docs/preuves/git.tm[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ls -lh scripts/ rendus/
+[?2004lrendus/:
+total 16K
+-rw-r--r-- 1 babacar babacar 16K Nov 23 15:20 [0m[01;31mlinux_783676232.tar.gz[0m
+
+scripts/:
+total 8.0K
+-rwxr-xr-x 1 babacar babacar 1.9K Nov 23 15:09 [01;32manalyse.sh[0m
+-rwxr-xr-x 1 babacar babacar  241 Nov 23 15:09 [01;32msurveille.sh[0m
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git log --oneline --stat
+[?2004l[?1h=[33m4941523[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m)[m Ajoute la documentation et les preuves Linux[m
+ docs/git.md                                  |  16 [32m++++[m[m
+ docs/linux.md                                |   5 [32m++[m[m
+ docs/preuves/historique_linux.txt            | 291 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.log                       | 553 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.tm                        | Bin [31m0[m -> [32m20751[m bytes[m
+ rapports/rapport_783676232_20261123_1154.txt |  24 [32m+++++[m[m
+ rendus/linux_783676232.tar.gz                | Bin [31m0[m -> [32m16087[m bytes[m
+ 7 files changed, 889 insertions(+)[m
+[33mf27b127[m Ajoute les preuves Git[m
+ docs/preuves/git.log | 76 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/git.tm  |  0[m
+ 2 files changed, 76 insertions(+)[m
+[33md4eeb11[m Ajoute le generateur Java[m
+ .gitignore              |  3 [32m+++[m[m
+ README.md               | 14 [32m++++++++++++++[m[m
+ scripts/analyse.sh      | 92 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ scripts/surveille.sh    | 11 [32m+++++++++++[m[m
+ src/GenerateurLogs.java | 66 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 5 files changed, 186 insertions(+)[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch sauvegarde-main-propre
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch
+[?2004l[?1h=  main[m[m
+* [32mmain-propre[m[m
+  sauvegarde-main[m[m
+  sauvegarde-main-propre[m[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+	[31mmodified:   docs/preuves/git.tm[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git remote -v
+[?2004lorigin	git@github.com:sowbabs585-a11y/dbe-eval-783676232.git (fetch)
+origin	git@github.com:sowbabs585-a11y/dbe-eval-783676232.git (push)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ ssh -T git@github.com
+[?2004lHi sowbabs585-a11y! You've successfully authenticated, but GitHub does not provide shell access.
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git ls-remote --heads origin
+[?2004l4f418e3641a20ee5d98870f11a52ab314c5afad4	refs/heads/main
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git show --stat --oneline origin/main
+[?2004l[?1h=[33m4f418e3[m[33m ([m[1;31morigin/main[m[33m)[m Version propre du projet[m
+ .gitignore                                   |   3 [32m+[m[m
+ README.md                                    |  14 [32m+++[m[m
+ docs/git.md                                  |  16 [32m++++[m[m
+ docs/linux.md                                |   5 [32m++[m[m
+ docs/preuves/historique_linux.txt            | 291 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.log                       | 553 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.tm                        | Bin [31m0[m -> [32m20751[m bytes[m
+ rapports/rapport_783676232_20261123_1154.txt |  24 [32m+++++[m[m
+ rendus/linux_783676232.tar.gz                | Bin [31m0[m -> [32m16087[m bytes[m
+ scripts/analyse.sh                           |  92 [32m+++++++++++++++++++[m[m
+ scripts/surveille.sh                         |  11 [32m+++[m[m
+ src/GenerateurLogs.java                      |  66 [32m++++++++++++++[m[m
+ 12 files changed, 1075 insertions(+)[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cd ~/dbe-eval-783676232
+[?2004l[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status
+[?2004lOn branch main-propre
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   docs/preuves/git.log[m
+	[31mmodified:   docs/preuves/git.tm[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git remote -v
+[?2004lorigin	git@github.com:sowbabs585-a11y/dbe-eval-783676232.git (fetch)
+origin	git@github.com:sowbabs585-a11y/dbe-eval-783676232.git (push)
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git branch -vv
+[?2004l[?1h=  main                  [m 5fae7a5 [[34morigin/main[m: ahead 1] Configure les fichiers ignores[m
+* [32mmain-propre           [m 4941523 Ajoute la documentation et les preuves Linux[m
+  sauvegarde-main       [m 5fae7a5 Configure les fichiers ignores[m
+  sauvegarde-main-propre[m 4941523 Ajoute la documentation et les preuves Linux[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status --short
+[?2004l [31mM[m docs/preuves/git.log
+ [31mM[m docs/preuves/git.tm
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git ls-files
+[?2004l.gitignore
+README.md
+docs/git.md
+docs/linux.md
+docs/preuves/git.log
+docs/preuves/git.tm
+docs/preuves/historique_linux.txt
+docs/preuves/linux.log
+docs/preuves/linux.tm
+rapports/rapport_783676232_20261123_1154.txt
+rendus/linux_783676232.tar.gz
+scripts/analyse.sh
+scripts/surveille.sh
+src/GenerateurLogs.java
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git ls-remote --heads origin
+[?2004l4f418e3641a20ee5d98870f11a52ab314c5afad4	refs/heads/main
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ c[Kgit log --oneline --graph --decorate --all -12
+[?2004l[?1h=* [33m4941523[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain-propre[m[33m, [m[1;32msauvegarde-main-propre[m[33m)[m Ajoute la documentation et les preuves Linux[m
+* [33mf27b127[m Ajoute les preuves Git[m
+* [33md4eeb11[m Ajoute le generateur Java[m
+* [33m5fae7a5[m[33m ([m[1;32msauvegarde-main[m[33m, [m[1;32mmain[m[33m)[m Configure les fichiers ignores[m
+* [33m4f418e3[m[33m ([m[1;31morigin/main[m[33m)[m Version propre du projet[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git diff --stat origin/main..main-propre
+[?2004l[?1h= .gitignore           |  2 [32m+[m[31m-[m[m
+ docs/preuves/git.log | 76 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/git.tm  |  0[m
+ 3 files changed, 77 insertions(+), 1 deletion(-)[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ cat .gitignore
+[?2004lout/
+*.class
+logs/
+[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git show --stat --oneline origin/main
+[?2004l[?1h=[33m4f418e3[m[33m ([m[1;31morigin/main[m[33m)[m Version propre du projet[m
+ .gitignore                                   |   3 [32m+[m[m
+ README.md                                    |  14 [32m+++[m[m
+ docs/git.md                                  |  16 [32m++++[m[m
+ docs/linux.md                                |   5 [32m++[m[m
+ docs/preuves/historique_linux.txt            | 291 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.log                       | 553 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ docs/preuves/linux.tm                        | Bin [31m0[m -> [32m20751[m bytes[m
+ rapports/rapport_783676232_20261123_1154.txt |  24 [32m+++++[m[m
+ rendus/linux_783676232.tar.gz                | Bin [31m0[m -> [32m16087[m bytes[m
+ scripts/analyse.sh                           |  92 [32m+++++++++++++++++++[m[m
+ scripts/surveille.sh                         |  11 [32m+++[m[m
+ src/GenerateurLogs.java                      |  66 [32m++++++++++++++[m[m
+ 12 files changed, 1075 insertions(+)[m
+[K[?1l>[?2004h]0;babacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git diff --check
+[?2004l[?1h=docs/preuves/git.log:76: trailing whitespace.[m
+[32m+[m[32mabacar@DESKTOP-IQ5CLFN: ~/dbe-eval-783676232[7m^G[27m[01;32mbabacar@DESKTOP-IQ5CLFN[00m:[01;34m~/dbe-eval-783676232[00m$ git status[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:77: trailing whitespace.[m
+[32m+[m[32m[7m^M[27mOn branch main-propre[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:78: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:79: trailing whitespace.[m
+[32m+[m[32mNo commits yet[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:80: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:81: trailing whitespace.[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:82: trailing whitespace.[m
+[32m+[m[32m  (use "git rm --cached <file>..." to unstage)[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:83: trailing whitespace.[m
+[32m+[m       [32m[32mnew file:   .gitignore[m[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:84: trailing whitespace.[m
+[32m+[m       [32m[32mnew file:   README.md[m[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:85: trailing whitespace.[m
+[32m+[m       [32m[32mnew file:   scripts/analyse.sh[m[m[41m[7m^M[27m[m[m
+docs/preuves/git.log:86: trailing whitespace.[m
+[32m+[m       [32m[32mnew file:   scripts/surveille.
